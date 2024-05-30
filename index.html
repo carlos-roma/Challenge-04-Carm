@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Quizz Js</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p id="view-scores">View Highest scores</p>
+            <span class="timer">Time</span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h1>Quizz Javascript</h1>
+            <h2 id="instructions">Instructions</h2>
+            <p>Welcome to the JS script (Ch4)<br> Press start to begin</p>
+            <input type="text" id="username" placeholder="Enter your name">
+            <button class="button">Start</button>
+
+            <div id="quiz" style="display:none;">
+                <p id="question"></p>
+                <div>
+                    <button class="answer" data-choice="a"></button>
+                    <button class="answer" data-choice="b"></button>
+                    <button class="answer" data-choice="c"></button>
+                    <button class="answer" data-choice="d"></button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="high-scores" style="display:none;">
+            <h2>High Scores</h2>
+            <ul id="scores-list"></ul>
+            <button id="back-button">Back</button>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

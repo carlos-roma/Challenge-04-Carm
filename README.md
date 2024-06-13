@@ -16,7 +16,8 @@ o9b  # Quizz JS
   ## Installation
   Runs on the browser.
 
-  ## Screenshot
+  ## Screenshot![Screenshot (278)](https://github.com/carlos-roma/JS_quiz/assets/68045584/4055a031-326f-432a-b98b-c533742c867e)
+
   
   ## How to Use This Application
   Press start and answer the questions
